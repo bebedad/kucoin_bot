@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import ccxt
 import requests
 import time
@@ -7,7 +6,6 @@ import os
 import math
 from datetime import datetime
 
-load_dotenv()
 KUCOIN_FUTURES_KEY = os.getenv('KUCOIN_FUTURES_KEY')
 KUCOIN_FUTURES_SECRET = os.getenv('KUCOIN_FUTURES_SECRET')
 KUCOIN_FUTURES_PASSPHRASE = os.getenv('KUCOIN_FUTURES_PASSPHRASE')
